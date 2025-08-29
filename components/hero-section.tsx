@@ -33,9 +33,9 @@ export function HeroSection() {
                 Especialista em Soluções Digitais
               </h2>
               <p className="text-lg text-muted-foreground max-w-lg text-pretty animate-fade-in-up delay-500">
-                Transformo ideias em soluções digitais completas. Especializado em desenvolvimento de software,
-                automações, gestão de redes sociais e consultoria tecnológica. Com 2 anos de experiência em TI, ofereço
-                desde aplicações web até estratégias digitais personalizadas.
+                Desenvolvedor Full Stack com mais de 5 anos de experiência, transformando ideias em soluções digitais
+                completas. Especializado em desenvolvimento de software, automações e consultoria tecnológica, ofereço
+                desde aplicações web modernas até estratégias digitais personalizadas.
               </p>
             </div>
 
