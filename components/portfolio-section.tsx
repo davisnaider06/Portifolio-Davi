@@ -18,7 +18,7 @@ export function PortfolioSection() {
     {
       title: "AskLumenAI",
       description: "IA revolucionária com funções de todas em um só lugar, incluindo geração de imagens, chat e análise de sentimentos.",
-      image: "/healthcare-dashboard-medical-interface.png",
+      image: "/asklumen.png",
       technologies: ["Python", "React", "Docker", "FastAPI", "OpenAI API"],
       liveUrl: "https://asklumen-ai-seven.vercel.app/"
     },
