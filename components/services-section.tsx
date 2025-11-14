@@ -41,7 +41,7 @@ export function ServicesSection() {
       features: ["Análise Técnica", "Arquitetura", "Mentoria", "Estratégia Digital"],
     },
     {
-      icon: Globe,
+      icon: handshake,
       title: "SaaS & Soluções em Nuvem",
       description: "Soluções escaláveis em nuvem para negócios modernos, incluindo SaaS e infraestrutura.",
       features: ["AWS", "Ecommerce", "ERP", "CRM "],
