@@ -1,6 +1,6 @@
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 import { Button } from "@/components/ui/button"
-import { Globe, Smartphone, Database, Palette, Code, Zap } from "lucide-react"
+import { Globe, Smartphone, Database, Palette, Code, Zap, handshake } from "lucide-react"
 
 export function ServicesSection() {
   const services = [
@@ -39,6 +39,12 @@ export function ServicesSection() {
       title: "Consultoria Digital",
       description: "Consultoria completa em transformação digital e otimização de processos tecnológicos.",
       features: ["Análise Técnica", "Arquitetura", "Mentoria", "Estratégia Digital"],
+    },
+    {
+      icon: Globe,
+      title: "SaaS & Soluções em Nuvem",
+      description: "Soluções escaláveis em nuvem para negócios modernos, incluindo SaaS e infraestrutura.",
+      features: ["AWS", "Ecommerce", "ERP", "CRM "],
     },
   ]
 

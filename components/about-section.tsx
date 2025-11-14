@@ -16,6 +16,10 @@ export function AboutSection() {
     "Git",
     "Figma",
     "Tailwind CSS",
+    "Express",
+    "VB.NET",
+    "SQL Server",
+    "Python"
   ]
 
   const expertise = [
