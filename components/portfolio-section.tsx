@@ -51,7 +51,7 @@ export function PortfolioSection() {
       description: "Aplicativo financeiro com transferências, investimentos e análise de gastos pessoais.",
       image: "/fintech-mobile-app.png",
       technologies: ["React Native", "Node.js", "PostgreSQL", "React"],
-      liveUrl: "https://finance-control-front.onrender.com",
+      liveUrl: "https://finnancy.netlify.app/",
       githubUrl: "https://github.com/davisnaider06/finance_control",
     },
   ]
