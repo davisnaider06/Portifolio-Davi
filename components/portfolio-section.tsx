@@ -7,13 +7,12 @@ import Image from "next/image"
 export function PortfolioSection() {
   const projects = [
     {
-      title: "E-commerce Platform",
-      description:
-        "Tamplate de plataforma de e-commerce, sistema de pagamentos e gestão de estoque.",
-      image: "/modern-ecommerce-interface.png",
-      technologies: ["Next.js", "TypeScript", "Stripe", "PostgreSQL"],
-      liveUrl: "https://neotek.netlify.app/",
-      githubUrl: "https://github.com/davisnaider06/neoTek_ecom",
+      title: "RevOps - SaaS",
+      description: "Saas de operações de receita para pequenas e médias empresas, com funcionalidades de CRM, automação de marketing e análise de vendas e ERP Completo",
+      image: "/mockup-saas.png",
+      technologies: ["React Native", "Node.js", "PostgreSQL", "React"],
+      liveUrl: "https://rev-ops-saa-s.vercel.app/login",
+      githubUrl: "https://github.com/davisnaider06/RevOps-SaaS",
     },
     {
       title: "AskLumenAI",
@@ -21,6 +20,15 @@ export function PortfolioSection() {
       image: "/asklumen.png",
       technologies: ["Python", "React", "Docker", "FastAPI", "OpenAI API"],
       liveUrl: "https://asklumen-ai-seven.vercel.app/"
+    },
+    {
+      title: "E-commerce Platform",
+      description:
+        "Tamplate de plataforma de e-commerce, sistema de pagamentos e gestão de estoque.",
+      image: "/modern-ecommerce-interface.png",
+      technologies: ["Next.js", "TypeScript", "Stripe", "PostgreSQL"],
+      liveUrl: "https://neotek.netlify.app/",
+      githubUrl: "https://github.com/davisnaider06/neoTek_ecom",
     },
     {
       title: "CRM nexaflow",
@@ -45,15 +53,7 @@ export function PortfolioSection() {
       technologies: ["React", "Express", "MongoDB", "AWS S3"],
       liveUrl: "https://crims0nc0de.netlify.app/",
       githubUrl: "#",
-    },
-    {
-      title: "Fintech Mobile App",
-      description: "Aplicativo financeiro com transferências, investimentos e análise de gastos pessoais.",
-      image: "/fintech-mobile-app.png",
-      technologies: ["React Native", "Node.js", "PostgreSQL", "React"],
-      liveUrl: "https://finnancy.netlify.app/",
-      githubUrl: "https://github.com/davisnaider06/finance_control",
-    },
+    }
   ]
 
   return (
