@@ -16,3 +16,12 @@ main{display:block;padding:0;gap:0}
 /* Slightly smaller portrait, keeping the full-width section. */
 @media(min-width:701px){.about .portrait{inset:auto 0 0 auto;width:88%;height:88%;object-fit:contain;object-position:right bottom}}
 @media(max-width:700px){.about .portrait{height:370px;object-fit:contain;object-position:right top}.about-content{margin-top:355px}}
+/* One transparent navigation bar remains visible across every section. */
+.site-header{position:fixed;inset:0 0 auto;z-index:110;background:transparent;pointer-events:none}
+.site-header nav{display:flex;align-items:center;gap:27px;padding:22px 30px;background:transparent;font-size:14px}
+.site-header a{position:relative;pointer-events:auto;color:#fff;opacity:.8;text-shadow:0 1px 6px #000,0 0 12px #0008;transition:opacity .2s}
+.site-header a:hover,.site-header a[aria-current="page"]{opacity:1}
+.site-header a:after{content:'';position:absolute;left:0;right:0;bottom:-6px;height:1px;background:#fff;transform:scaleX(0);transform-origin:left;transition:transform .25s}
+.site-header a:hover:after,.site-header a[aria-current="page"]:after{transform:scaleX(1)}
+.panel{padding-top:64px;scroll-margin-top:0}
+@media(max-width:700px){.site-header nav{gap:20px;padding:22px 7%;font-size:12px}}

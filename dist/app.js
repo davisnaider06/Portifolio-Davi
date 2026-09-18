@@ -59,3 +59,22 @@
   });
   motion();
 })();
+(() => {
+  const sections = [...document.querySelectorAll('main > section[id]')];
+  const links = [...document.querySelectorAll('.site-header a')];
+  let scheduled = false;
+  function updateNavigation() {
+    const threshold = Math.min(160, innerHeight * .25);
+    let active = sections[0]?.id;
+    for (const section of sections) if (section.getBoundingClientRect().top <= threshold) active = section.id;
+    links.forEach(link => {
+      if (link.hash === '#' + active) link.setAttribute('aria-current', 'page');
+      else link.removeAttribute('aria-current');
+    });
+    scheduled = false;
+  }
+  addEventListener('scroll', () => {if (!scheduled) {scheduled = true; requestAnimationFrame(updateNavigation)}}, {passive:true});
+  addEventListener('resize', updateNavigation);
+  addEventListener('load', updateNavigation);
+  updateNavigation();
+})();
